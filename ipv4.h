@@ -14,7 +14,7 @@ struct ipv4_hdr {
     uint16_t check;
     uint32_t saddr;
     uint32_t daddr;
-}
+};
 
 // Helper to extract the IHL
 static inline uint8_t ipv4_ihl(const struct ipv4_hdr* ip){
